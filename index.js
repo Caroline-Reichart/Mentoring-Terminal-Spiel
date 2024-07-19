@@ -130,7 +130,7 @@ if (choice == "1") {
 console.log(
   `Du hast dir den Garten angesehen und dabei ein altes Labyrinth gefunden, das Spiel geht weiter in Teil 3 (Reise ins Labyrinth)! Du hast ${points} Punkte erreicht!\n`
 ); 
-process.exit();
+
 
 choice = readlinesync.question(
   "Im Schloss siehst du eine Treppe, die nach oben führt. Du gehst hinauf und findest eine Tür.\n1. Möchtest du die Tür öffnen?\n2. Möchtest du die Treppe wieder hinunter gehen?\n"
