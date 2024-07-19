@@ -128,7 +128,7 @@ if (choice == "1") {
 }
 
 console.log(
-  `Du hast dir den Garten angesehen und dabei ein altes Labyrinth gefunden, das Spiel geht weiter in Teil 3 (Reise ins Labyrinth)! Du hast ${points} Punkte erreicht!`
+  `Du hast dir den Garten angesehen und dabei ein altes Labyrinth gefunden, das Spiel geht weiter in Teil 3 (Reise ins Labyrinth)! Du hast ${points} Punkte erreicht!\n`
 ); 
 process.exit();
 
@@ -137,10 +137,10 @@ choice = readlinesync.question(
 );
 
 if (choice == "1") {
-  console.log("Du öffnest die Tür! Du gewinnst 2 Punkte.");
+  console.log("Du öffnest die Tür! Du gewinnst 2 Punkte.\n");
   points += 2;
 } else if (choice == "2") {
-  console.log("Du gehst die Treppe wieder hinunter! Du verlierst 2 Punkte.");
+  console.log("Du gehst die Treppe wieder hinunter! Du verlierst 2 Punkte.\n");
   points -= 2;
 }
 
@@ -149,11 +149,11 @@ choice = readlinesync.question(
 );
 
 if (choice == "1") {
-  console.log("Du siehst in den Spiegel! Du gewinnst 2 Punkte.");
+  console.log("Du siehst in den Spiegel! Du gewinnst 2 Punkte.\n");
   points += 2;
 } else if (choice == "2") {
   console.log(
-    `Du hast nicht in den Spiegel gesehen, das Spiel ist beendet du hast ${points} Punkte erreicht!`
+    `Du hast nicht in den Spiegel gesehen, das Spiel ist beendet du hast ${points} Punkte erreicht!\n`
   );
   process.exit();
 }
@@ -163,11 +163,11 @@ choice = readlinesync.question(
 );
 
 if (choice == "1") {
-  console.log("Du gehst hindurch! Du gewinnst 2 Punkte.");
+  console.log("Du gehst hindurch! Du gewinnst 2 Punkte.\n");
   points += 2;
 } else if (choice == "2") {
   console.log(
-    `Du bist nicht hindurchgegangen, das Spiel ist beendet, du hast ${points} Punkte erreicht!`
+    `Du bist nicht hindurchgegangen, das Spiel ist beendet, du hast ${points} Punkte erreicht!\n`
   );
   process.exit();
 }
