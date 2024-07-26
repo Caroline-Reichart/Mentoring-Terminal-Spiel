@@ -36,7 +36,10 @@ if (answer === "1") {
 }
 
 while (true){
-  answer = readlinesync.question("Möchtest du die Tür öffnen?\n1. Ja\n2. Nein\n \n");
+  answer = readlinesync.question(`Möchtest du die Tür öffnen?\n
+    1. Ja\n
+    2. Nein\n `);
+
   if (answer === "1" || answer === "2") {
       break;       
   }  
@@ -53,7 +56,11 @@ process.exit();
 } 
 
 while (true){
-  answer = readlinesync.question("Der Weg führt dich an einen magischen See.\n1. Möchtest du mit dem Boot zur Insel fahren?\n2. Möchtest du am See entlang gehen?\n3. Möchtest du dich an den See setzen und die Ruhe genießen?\n ");
+  answer = readlinesync.question(`Der Weg führt dich an einen magischen See.\n
+   1. Möchtest du mit dem Boot zur Insel fahren?\n
+   2. Möchtest du am See entlang gehen?\n
+   3. Möchtest du dich an den See setzen und die Ruhe genießen?\n `);
+
   if (answer === "1" || answer === "2" || answer === "3") {
       break;       
   }  
@@ -90,7 +97,10 @@ switch (parseInt(answer)) {
 }
 
 while (true){
-  answer = readlinesync.question("Möchtest du die Nixe ansprechen?\n1. Ja\n2. Nein\n");
+  answer = readlinesync.question(`Möchtest du die Nixe ansprechen?\n
+    1. Ja\n
+    2. Nein\n`);
+    
   if (answer === "1" || answer === "2") {
       break;       
   }  
